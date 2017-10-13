@@ -23,7 +23,7 @@ assembly_info:
 nuget:
   project_feed: true
 before_build:
-- cmd: nuget restore Hdq.Lib.sln
+- cmd: nuget restore Hdq.RestBus.Subscriber.sln
 build:
   publish_nuget: true
   verbosity: normal
