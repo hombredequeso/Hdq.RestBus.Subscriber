@@ -22,6 +22,8 @@ assembly_info:
   assembly_informational_version: '{version}'
 nuget:
   project_feed: true
+before_build:
+- cmd: nuget restore Hdq.Lib.sln
 build:
   publish_nuget: true
   verbosity: normal
